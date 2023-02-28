@@ -1,0 +1,5 @@
+library (readr)
+
+urlfile="https://raw.githubusercontent.com/tarikkranda/pi_intern_question/main/dataset.csv"
+
+mydata<-read_csv(url(urlfile))
